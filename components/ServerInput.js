@@ -77,13 +77,13 @@ class ServerInput extends React.Component {
         this.props.onSuccess();
       }
       // Navigate to the main screen
-      this.props.navigation.reset({
-        index: 0,
-        routes: [{
-          name: this.props.successScreen || 'Main',
-          props: { activeServer: servers.length - 1 }
-        }]
-      });
+      this.props.navigation.replace(
+        'Main',
+        {
+          screen: this.props.successScreen || 'Home',
+          params: { activeServer: servers.length - 1 }
+        }
+      );
     } else {
       this.setState({
         isValid: false,
