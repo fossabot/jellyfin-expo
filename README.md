@@ -6,6 +6,8 @@ Jellyfin Expo is a mobile app built with <a href="https://expo.io/">Expo</a> pri
 </p>
 
 ## Build Process
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fthornbill%2Fjellyfin-expo.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fthornbill%2Fjellyfin-expo?ref=badge_shield)
+
 
 ### Getting Started
 
@@ -23,3 +25,7 @@ Jellyfin Expo is a mobile app built with <a href="https://expo.io/">Expo</a> pri
    yarn start
    ```
 4. Follow the directions in the terminal or browser window to open on a device or emulator.
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fthornbill%2Fjellyfin-expo.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fthornbill%2Fjellyfin-expo?ref=badge_large)
